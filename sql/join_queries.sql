@@ -1,0 +1,1 @@
+SELECT c.language, b.name FROM countrylanguage c JOIN country b ON c.countrycode=b.code WHERE isofficial=TRUE;

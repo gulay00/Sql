@@ -1,0 +1,1 @@
+SELECT countrycode, COUNT(language) c FROM countrylanguage GROUP BY countrycode ORDER BY c DESC LIMIT 5;

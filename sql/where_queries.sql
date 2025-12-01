@@ -1,0 +1,1 @@
+SELECT name, population FROM country WHERE continent='Europe';

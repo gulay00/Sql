@@ -1,0 +1,1 @@
+SELECT * FROM (SELECT code,name,population, ROW_NUMBER() OVER (PARTITION BY code ORDER BY population DESC) rn FROM country) t WHERE rn<=3;
